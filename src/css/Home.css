@@ -1,0 +1,122 @@
+.hero {
+    background-color: #6C9DCA;
+    padding: 20px 0;
+    height: calc(100vh - 80px);
+    display: flex;
+    align-items: center;
+}
+
+.hero > div {
+    display: flex !important;
+    align-items: center;
+}
+
+.hero > div > div {
+    width: 50%;
+}
+
+.hero .button.solid {
+    background-color: black;
+    color: white;
+}
+
+.hero .button.solid:hover {
+    background-color: #535353;
+}
+
+.hero .button.outline {
+    margin-left: 5px;
+    color: black;
+    border-color: black;
+}
+
+.hero .button.outline:hover {
+    color: #535353;
+    border-color: #535353;
+}
+
+.hero-left h1 {
+    font-size: 3.5em;
+}
+
+.hero-left p {
+    font-size: 1.5em;
+}
+
+.hero-left > div {
+    display: flex;
+}
+
+.hero-right > img {
+    width: 100%;
+}
+
+.section {
+    padding: 60px 0;
+    font-size: 1.2em;
+}
+
+.section img {
+    max-width: 100%;
+}
+
+.section:nth-child(odd) {
+    background-color: white;
+}
+
+.section:nth-child(even) {
+    background-color: #6C9DCA;
+    color: white;
+}
+
+.section > div {
+    display: flex !important;
+    align-items: center;
+}
+
+.section:nth-child(odd) .right {
+    padding: 0 50px;
+}
+
+.section:nth-child(even) .left {
+    padding: 0 50px;
+}
+
+.section > div > div {
+    width: 50%;
+}
+
+.contact {
+    height: 80vh;
+    background-color: #6C9DCA;
+}
+
+.footer {
+    background-color: #535353;
+    padding: 20px;
+    color: #8d8d8d;
+}
+
+.footer > div {
+    display: flex !important;
+    flex-direction: column;
+}
+
+.footer .top {
+    font-size: 0.8em;
+}
+
+.footer .bottom {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer a {
+    color: white;
+    margin: 0 10px;
+}
+
+.footer a:hover {
+    color: #8d8d8d;
+}

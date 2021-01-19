@@ -1,0 +1,42 @@
+.button {
+    padding: 5px 8px;
+    border-radius: 3px;
+    font-family: 'Titillium Web', sans-serif;
+    margin: 0;
+}
+
+.button:hover {
+    cursor: pointer;
+    color: #6C9DCA;
+}
+
+.button.solid {
+    background-color: #6C9DCA;
+    color: white;
+}
+
+.button.solid:hover {
+    background-color: #6c9dca98;
+    color: white;
+}
+
+.button.outline {
+    color: #6C9DCA;
+    border: solid 1.5px #6C9DCA;
+}
+
+.border.outline:hover {
+    color: #6C9DCA;
+}
+
+body {
+    font-family: 'News Cycle', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+p, li {
+    line-height: 1.5em;
+}

@@ -1,0 +1,25 @@
+.nav {
+    background-color: white;
+    height: 80px;
+    font-size: 1.2em;
+}
+
+.nav > div {
+    height: 100%;
+    display: flex !important;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-left img {
+    height: 40px;
+}
+
+.nav-right {
+    display: flex;
+}
+
+.nav-right > * {
+    margin: 5px !important;
+}
