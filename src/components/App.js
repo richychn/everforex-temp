@@ -10,7 +10,7 @@ const App = () => {
                 <Switch>
                     <Route path="/" exact component={Home} />
                     <Route path='/careers' component={() => { 
-                        window.open('https://www.notion.so/Careers-b87bb67bf72542b1a726b32cc83c6c77', '_blank');
+                        window.open('https://www.notion.so/Careers-at-Everforex-b87bb67bf72542b1a726b32cc83c6c77', '_blank');
                         window.history.back();
                         return null;
                     }}/>
