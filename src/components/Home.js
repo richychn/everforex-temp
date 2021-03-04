@@ -118,6 +118,14 @@ class Home extends React.Component {
         )
     }
 
+    renderTesting() {
+        return (
+            <div className='testing'>
+                <h2>Testing</h2>
+            </div>
+        )
+    }
+
     render() {
         return (
             <div>
@@ -126,6 +134,7 @@ class Home extends React.Component {
                 {this.renderFeatures()}
                 {this.renderContact()}
                 {this.renderFooter()}
+                {this.renderTesting()}
             </div>
         )
     }
